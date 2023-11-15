@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vh;
+    max-width: 100%;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif sans-serif;
+}
+
+
+.header__social_pic {
+    width: 232px;
+    height: 73px;
+    position: relative;
+    float: right;
+    right: 140px;
+}
+
+.menu__btn {
+    background-image: url(img/Marker.svg);
+    width: 5px;
+    height: 42px;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    background: var(--vdarkblue, #0B0B0D);
+    backdrop-filter: blur(20px);
+
+}
+
+.menu__logo {
+    width: 140px;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    padding-top: 70px;
+    padding-left: 80px;
+    margin-bottom: 70px;
+}
+
+.menu__list_item {
+    color: white;
+    font-family: Oswald;
+    font-size: 19px;
+    font-style: normal;
+    margin-bottom: 30px;
+    padding-left: 120px;
+
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+a:hover {
+    background: url(img/Marker.svg) no-repeat;
+    padding-bottom: 120px;
+    padding-left: 120px;
+    color: #A276FF;
+    
+}
+
+.menu__list_support {
+    color: white;
+    font-size: 18px;
+    font-family: Oswald;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 190px;
+    margin-bottom: 40px;
+    padding-left: 120px;
+}
+
+.menu__list_contact {
+    color: white;
+    font-size: 17px;
+    font-family: Oswald;
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 70px;
+    padding-left: 120px;
+}
+
+.menu__low {
+    color: white;
+    font-family: Oswald;
+    font-size: 17px;
+    opacity: 0.25;
+    padding-left: 120px;
+}
+
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.intro {
+
+    background: url(img/car.png) no-repeat;
+    background-color: rgb(36, 36, 73);
+    background-size: cover;
+    padding-top: 82px;
+}
+
+.intro__conteiner {
+    width: 75%;
+    height: 100%;
+    position: relative;
+    display: block;
+    flex-wrap: nowrap;
+    margin-left: 400px;
+    margin-right: 0%;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+    border: 2px white solid;
+    backdrop-filter: blur(30px)
+}
+
+.page1 {
+    color: #111111;
+    font-size: 56px;
+    font-family: Oswald;
+    font-weight: 700;
+    line-height: 92.79px;
+    margin-top: 100px;
+    margin-left: 90px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.intro__and {
+    text-decoration: underline;
+    list-style-type: none;
+    text-decoration-color: rgba(162, 118, 255, 1);
+    color: rgb(0, 0, 0);
+}
+
+.intro__paragraf {
+    display: flex;
+    width: 600px;
+    padding-left: 90px;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.intro__paragraf1 {
+    width: 600px;
+    padding-left: 90px;
+    color: #111111;
+    font-size: 29px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
+.intro__paragraf2 {
+    width: 600px;
+    padding-left: 90px;
+    color: #111111;
+    font-size: 27px;
+    font-family: Oswald;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 7px;
+}
+
+.intro__paragraf2_duis {
+    width: 600px;
+    padding-left: 90px;
+    color: #111111;
+    font-size: 29px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
+.intro__paragraf3 {
+    width: 600px;
+    height: 25px;
+    padding-left: 90px;
+    color: #111111;
+    font-size: 27px;
+    font-family: Oswald;
+    font-weight: 700;
+    line-height: 45px;
+    overflow: hidden;
+
+}
+
+.intro__figure {
+
+    position: absolute;
+    margin-left: 700px;
+    top: 90px;
+}
+
+.intro__autor {
+    text-align: center;
+}
+
+.intro__title_simple {
+    color: white;
+    font-size: 56px;
+    font-family: Oswald;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 7px;
+    padding-top: 180px;
+}
+
+.intro__title {
+    color: #A276FF;
+    font-size: 120px;
+    font-family: Oswald;
+    font-weight: 700;
+    line-height: 117px;
+    word-wrap: break-word;
+    align-items: baseline;
+    padding-left: 500px;
+    margin-bottom: 44px;
+}
+
+.intro__subtitle {
+    max-width: 1080px;
+    color: white;
+    font-size: 29px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 45px;
+    word-wrap: break-word;
+    padding-left: 500px;
+    margin-bottom: 18px;
+}
+
+.button {
+    width: 350px;
+    height: 70px;
+    border-radius: 17px;
+    border: 3px white solid;
+    font-size: 20px;
+    font-family: Oswald;
+    font-weight: 700;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-left: 500px;
+    margin-bottom: 86px;
+}
+
+.photo {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 500px;
+}
+
+.photo__planet,
+.photo__cosmos,
+.photo__cosmo,
+.photo__human {
+
+    width: 256px;
+    height: 159px;
+    border-radius: 9px;
+    margin-right: 40px;
+    margin-bottom: 7px;
+
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: var(--FFF, #FFF);
+    font-family: Oswald;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    margin-left: 500px;
+    margin-bottom: 15px;
+    background: url(img/triangle.png) no-repeat left 110px center;
+
+}
+
+.text {
+    color: var(--FFF, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 500px;
+
+}
+
+
